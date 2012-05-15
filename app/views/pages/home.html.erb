@@ -1,0 +1,136 @@
+<div id="content" class="container_12">
+		<div id="" class="grid_8 ">
+			<div class="title" id="post-609" style="color: #CD0001;">     
+				<!-- Product -->
+			</div>
+			<div class="post">
+				<div>
+					<p style="text-align:justify">Welcome to Foodie Compass! Through group buying we offer artisan food products which are not available in the UK, at a good price, once a minimum number of customers sign up. This month we bring you the finest Belgian chocolates from Ma Chocolatière in Brussels <a href="/product">(more about the product)</a>. Made with artisanal skill and a truly magical touch, these chocolates are definitely an experience you shouldn't miss!</p>
+					<p><img src="http://placehold.it/200x150" align="left" style="margin-top: 10px"></p>
+					<table style="margin-top: 4px; padding-left:10px;font-size: 14px;line-height: 24px;" border="0" class="post_big">
+						<tr valign ="top">
+						<td style="width:35%"><strong>Product:</strong></td>
+						<td>500g praline selection from Ma Chocolatière (Brussels)</td>
+						</tr>
+						<tr valign ="top">
+						<td><strong>Price per Item:</strong></td>
+						<td>£26 inc. delivery in London (add £3 for delivery outside London)*</td>
+						</tr>
+						<tr>
+						<td><strong>Offer Ends:</strong></td>
+						<td>Midnight on Sunday 27th May 2012</td>
+						</tr>
+						<tr valign ="top">
+						<td><strong>Customers Needed:<strong></td>
+						<td>50 <font color="red">*4 currently signed-up*</font></td>
+						</tr>
+						</table>
+				</div>
+				* We take care of delivery in London - for mainland UK we use Royal Mail
+			</div>
+			
+			<div class="post" style="background: #F5DA81;">
+				<div style="padding-top:10px;">
+				<span style="margin-left:10px; padding-top:10px; color: #CD0001;font-family: Brevia-1,Brevia-2,helvetica,arial,sans-serif;
+				    font-size: 18px;
+				    line-height: 24px;
+				    text-transform: uppercase;">
+					Sign up here to take part
+				</span>
+				</div>
+				<div class="box">
+				<%= form_for @user, :remote => true do |f| %>
+				  <% if @user.errors.any? %>
+				    <div id="error_explanation">
+				      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+				      <ul>
+				      <% @user.errors.full_messages.each do |msg| %>
+				        <li><%= msg %></li>
+				      <% end %>
+				      </ul>
+				    </div>
+				  <% end %>
+
+				  <label>
+				    <span>Email *</span>
+				    <%= f.text_field :email, :class => 'input_text' %>
+				  </label>
+				  <label>
+				    <span>No. of Boxes *</span>
+				    <%= f.select :name, options_for_select([["1", "1"], 
+															["2", "2"],
+															["3", "3"],
+															["4", "4"],
+															["5", "5"],
+															["6", "6"],
+															["7", "7"],
+															["8", "8"],
+															["9", "9"],
+															["10", "10"],
+															["11", "11"],
+															["12", "12"],
+															["13", "13"],
+															["14", "14"],
+															["15", "15"],
+															["16", "16"],
+															["17", "17"],
+															["18", "18"],
+															["19", "19"],
+															["20", "20"]]) %>
+				  </label>
+				  <label>
+					<span></span>
+					<input style="left:0px;" class="button" type="submit" value="SUBMIT">
+				  </label>
+				  <br/>
+				<% end %>
+				</div>
+			</div>
+			<div class="post">     
+				<p>*We will email you when the promotion finishes to seal the deal and arrange payment and delivery.<p>
+				<p>*Your email will not be shared with any other parties and you can unsubscribe at any time.<p>
+			</div>
+			<div class="clear"></div>
+			<br style="clear: both"></div>
+			<div id="" class="grid_4 ">
+				
+				<div class="rightheader">Why Shop From Us?</div>
+				<br>
+				<img src="http://placehold.it/300x200">
+				<div class="clear"></div>
+				<br>
+				<div style="text-align:justify" class="rightcontent">Foodie Compass is a startup company in London, created at Imperial College Business School. We sell high quality artisan products from around the world through a unique group buying approach which delivers better value.</div>
+				<div class="post" style="height:10px; border-bottom: ">
+				<!--1px dotted #B6B6B6;-->
+				</div>
+				<div class="clear"></div>
+								<!-- <div class="rightheader">Why Shop From Us?</div> -->
+				<div class="clear"></div>
+				<div style="text-align:justify" class="rightcontent">We are passionate about high quality products made by small, independent artisan producers, and our business helps people in the UK buy them. Whether it be cheese from a small farmer in Savoie or finocchiona from Campi Bisenzi (Tuscany) - our aim is to enhance your culinary curiosity with a truly local experience.
+				<br><a href="/about">(more about us)</a></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+
+	<div id="sub" class="container_12">
+		<div id="" class="grid_12 ">
+			<div class="post" style="height:5px; border-bottom: 1px dotted #B6B6B6;">
+			</div>
+			<div class="post">
+				<div>
+					<div class="title" id="post-609" style="color: #008800;">Links</div>
+					<p>Here are some sites which we like and recommend - to get you excited about the REAL Belgian chocolate:</p>
+					<div style="margin-left:15px;">
+					<ul>
+					  <li><a href="http://travel.nytimes.com/2011/12/25/travel/brussels-the-chocolate-trail.html?nl=travel&emc=tda2&pagewanted=all">Brussels: The Chocolate Trail</a> - an excellent article about the chocolate scene in Brussels - you wil want to buy a EuroStar ticket right away!</li>
+					  <li><a href="http://www.chocablog.com/">Chocablog</a> - a London-based chocolate blog - really one of the best out there</li>
+					  <li><a href="http://mostlyaboutchocolate.com/">Mostly About Chocolate</a> - Judith posts regularly and is a chocolate judge - nice!</li>
+					  <li><a href="http://www.academyofchocolate.org.uk/policemans/blog.html">The Academy of Chocolate</a> - aims to "improve the standard and knowledge of chocolate in the UK", and often arranges events in London</li>
+					</ul>
+					</div>
+				</div>
+			</div>
+			<div class="post" style="height:5px;">
+			</div>
+		</div>
+	</div>

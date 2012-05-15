@@ -1,0 +1,54 @@
+/*     Creating a form without table    */
+/*     Author= "AJAY TALWAR"            */
+/*     Email- ajayslide183@gmail.com    */
+
+
+*{ margin:0; padding:0;}
+
+form,input,select,textarea{margin:0; padding:0; color:#262626;}
+
+div.box{
+width:500px;
+position:relative;
+top:10px;
+}
+
+div.box label{
+width:100%;
+display: block;
+padding:10px 0 10px 0;
+}
+div.box label span{
+display: block;
+color:#262626;
+font-size:14px;
+float:left;
+width:100px;
+text-align:right;
+padding:5px 20px 0 0;
+}
+
+div.box .input_text{
+padding:4px 10px;
+width:200px;
+}
+
+div.box .message{
+padding:7px 7px;
+width:350px;
+overflow:hidden;
+height:150px;
+}
+
+div.box .button
+{
+margin:0 0 10px 0;
+padding:4px 7px;
+background:#CD0001;
+border:0px;
+position: relative;
+top:1px;
+left:20px;
+width:100px;
+height:27px;
+}
